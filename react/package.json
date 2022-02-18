@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@rescripts/cli": "0.0.16",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
@@ -12,9 +13,12 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start.bak": "react-scripts start",
+    "start": "rescripts start",
+    "build.bak": "react-scripts build",
+    "build": "rescripts build",
+    "test.bak": "react-scripts test",
+    "test": "rescripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

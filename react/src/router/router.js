@@ -6,7 +6,7 @@ import Home from "../views/home";
 
 const BasicRoute = () => (
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={window.__POWERED_BY_QIANKUN__ ? '/app-react' : '/'}>
       <Switch>
         <Route exact path="/" component={App} />
         <Route path="/home" exact component={Home}></Route>
